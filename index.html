@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Derman Aygun | Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Portfolio</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#qualities">Qualities</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Derman</span>
+            </h1>
+            <p class="header-subtitle">A FULL-STACK DEVELOPER</p>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        As an enthusiastic individual, I thrive on bringing ideas to life through software engineering. Along my roadmap to becoming a skilled software engineer, I've taken the advice to "Learn the skill, not the tool" to heart. I understand that mastering the skills required for software engineering is more important than being proficient in numerous tools.
+                        <br/><br/>
+                        Although I'm still developing my skills, you can see from the skills and tools section of my page that I am dedicated to continuously learning and growing in this field. Throughout my journey, I've had the privilege of learning from many mentors who have helped me reach where I am today. I am immensely grateful for their guidance and support.
+                        <br/><br/>
+                        I'm passionate about software engineering and excited to contribute my skills and knowledge to meaningful projects. I'm always eager to learn from others and collaborate to create innovative solutions.
+                    </p>
+                    <a href="https://www.linkedin.com/in/derman-aygun-650101177/" class="btn-rounded btn btn-outline-primary mt-4">Check my CV</a>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <style>
+        .portfolio-hover:hover {
+            opacity: 0.9;
+        }
+    </style>
+
+
+    <!-- Qualities section -->
+    <section class="section" id="qualities">
+        <div class="container text-center">
+            <p class="section-subtitle">My characteristics</p>
+            <h6 class="section-title mb-6">Quality & Personality Tests</h6>
+            <!-- row -->
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <a href="javascript:open('modal-1')" class="portfolio-card portfolio-hover" style="background-color: #695AA6;">
+                        <p class="section-subtitle" style="padding: 100px 0px!important;margin:0!important;color: #FFF; opacity: 1;">Big Five</p>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="javascript:open('modal-2')" class="portfolio-card portfolio-hover" style="background-color: #695AA6;">
+                        <p class="section-subtitle" style="padding: 100px 0px!important;margin:0!important;color: #FFF; opacity: 1;">Caluwe</p>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="javascript:open('modal-3')" class="portfolio-card portfolio-hover" style="background-color: #695AA6;">
+                        <p class="section-subtitle" style="padding: 100px 0px!important;margin:0!important;color: #FFF; opacity: 1;">Qualities Meeting</p>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="javascript:open('modal-4')" class="portfolio-card portfolio-hover" style="background-color: #695AA6;">
+                        <p class="section-subtitle" style="padding: 100px 0px!important;margin:0!important;color: #FFF; opacity: 1;">Study History</p>
+                    </a>
+                </div>
+
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of qualities section -->
+
+    <script>
+        function open(id) {
+            document.getElementById(id).style.display = "flex";
+            window.scrollTo(0, 1900);
+        }
+        function close(id) {
+            document.getElementById(id).style.display = "none";
+            window.scrollTo(0, 1500);
+        }
+    </script>
+
+    <div class="cus-modal" id="modal-1">
+        <div class="cus-modal-wrapper" style="padding: 30px 0px 70px 0px;">
+            <div class="col-12 text-center">
+                <a href="javascript:close('modal-1')" style="color: rgb(128, 128, 128);">CLOSE</a>
+            </div>
+            <div class="col-12 text-center">
+                <h3 class="section-title mt-5">Big Five</h3>
+                <p class="section-subtitle">RESULTS</p>
+            </div>
+            <div class="col-12 text-center">
+                <p class="section-subtitle" style="margin:0!important;color: #000000; opacity: 1;">
+                    Openness: 65/100
+                    <br/>
+                    Conscientiousness: 60/100
+                    <br/>
+                    Extraversion: 60/100
+                    <br/>
+                    Agreeableness: 81/100
+                    <br/>
+                    Neuroticism: 54/100
+                    <br/>
+                    <b>Source: Truity.com</b>
+                </p>
+                <p class="section-subtitle pt-5" style="margin:0!important;color: #000000; opacity: 1;">
+                    Openness: 79/120
+                    <br/>
+                    Conscientiousness: 96/120
+                    <br/>
+                    Extraversion: 89/120
+                    <br/>
+                    Agreeableness: 111/120
+                    <br/>
+                    Neuroticism: 52/120
+                    <br/>
+                    <b>Source: bigfive-test.com</b>
+                </p>
+            </div>
+            <div class="col-12 mt-5 text-center">
+                <form method="get" action="./big_five.pdf">
+                    <button class="cus-btn" type="submit">Install document</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="cus-modal" id="modal-2">
+        <div class="cus-modal-wrapper" style="padding: 30px 0px 70px 0px;">
+            <div class="col-12 text-center">
+                <a href="javascript:close('modal-2')" style="color: rgb(128, 128, 128);">CLOSE</a>
+            </div>
+            <div class="col-12 text-center">
+                <h3 class="section-title mt-5">Caluwe</h3>
+                <p class="section-subtitle">Journal</p>
+            </div>
+            <div class="col-12 text-center" style="display: flex;justify-content: center;">
+                <p class="section-subtitle" style="margin:0!important;color: #000000; opacity: 1;max-width: 75%">
+                    On my first day as a software engineer at a new company, I expect to feel a mix of excitement and a healthy dose of nerves. I see myself arriving at the office early, full of energy and curious about what the day will bring. The office will be modern, with open workspaces and technology all around me.
+                    <br/><br/>
+                    I will be greeted by my manager or a colleague and guided to my workstation. My first impression will be a warm welcome, with friendly and helpful colleagues. I expect an introductory session where I will learn about the company culture and the main projects.
+                    <br/><br/>
+                    Throughout the day, I will meet my immediate team members and possibly other teams with whom I will collaborate. I will log into the systems, such as the development environment and communication tools, and my manager will give me an overview of the ongoing projects and my first tasks.
+                    <br/><br/>
+                    Tips for myself:
+                    <br/><br/>
+                    - Make a good first impression.
+                    <br/><br/>
+                    - Ask questions to show that you are interested in what the company does.
+                    <br/><br/>
+                    - Actively listen to colleagues and team leaders to understand what is required.
+                    <br/><br/>
+                    - Take notes of important terms and questions to further research at home.
+                    <br/><br/>
+                    - Be positive and open to create good relationships.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cus-modal" id="modal-3">
+        <div class="cus-modal-wrapper" style="padding: 30px 0px 70px 0px;">
+            <div class="col-12 text-center">
+                <a href="javascript:close('modal-3')" style="color: rgb(128, 128, 128);">CLOSE</a>
+            </div>
+            <div class="col-12 text-center">
+                <h3 class="section-title mt-5">Qualities Meeting</h3>
+                <p class="section-subtitle">RESULTS</p>
+            </div>
+            <div class="col-12 text-center" style="display: flex;justify-content: center;">
+                <p class="section-subtitle" style="margin:0!important;color: #000000; opacity: 1;max-width: 75%">
+                    Chosen quality and distortion by myself:
+                    <br/>
+                    Quality: Patient<br/>
+                    Distortion: Dissatisfied
+                    <br/><br/>
+                    Chosen quality and distortion by others:
+                    <br/>
+                    Quality: Considerate<br/>
+                    Distortion: Perfectionist
+                    <br/><br/>
+                    Why do you find this quality/distortion applicable?
+                    <br/>
+                    Because this is how I see myself. I am patient with everything and everyone and always want to be productive. When I am not, I become dissatisfied.
+                    <br/>
+                    I agree with it because I like to think along with others to achieve something together, but at the same time, I want things to be done perfectly and to look perfect.
+                    What is the effect of this on you?
+                    <br/><br/>
+                    Qualities:
+                    <br/>
+                    That I can work in a structured manner and complete things on time.
+                    <br/><br/>
+                    Pitfalls: 
+                    <br/>
+                    That I become too stressed and disappointed in myself when I haven't been productive.
+                    <br/><br/>
+                    Would you like to see a change in this?
+                    <br/>
+                    Not necessarily, because I have always managed to achieve my goals, so it is not a hindrance. However, sometimes I fall into a slump, which makes it difficult to find the motivation to start something that requires a lot of energy.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cus-modal" id="modal-4">
+        <div class="cus-modal-wrapper" style="padding: 30px 0px 70px 0px;">
+            <div class="col-12 text-center">
+                <a href="javascript:close('modal-4')" style="color: rgb(128, 128, 128);">CLOSE</a>
+            </div>
+            <div class="col-12 text-center">
+                <h3 class="section-title mt-5">Study History</h3>
+                <p class="section-subtitle">RESULTS</p>
+            </div>
+            <div class="col-12 text-center" style="display: flex;justify-content: center;">
+                <p class="section-subtitle" style="margin:0!important;color: #000000; opacity: 1;max-width: 75%">
+
+                    <b>Bachelor IT - The Hague University</b>
+                    <br/><br/>
+                    Year 1: Overall knowledge (Software, Network, Security, Big Data)<br/>
+                    Year 2: Enrolled into Software Engineering expertise, learned alot of skills about algorithms and such.<br/>
+                    Year 3: Minors and Internship (got to learn alot during my internship developed skills such as; devops, python & IoT)<br/>
+                    Year 4 (Current year): Specialization and final internship.<br/><br/>
+
+                    In the previous semesters, I have gained a lot of software-related knowledge, mainly about writing complex, clean, and structured code. Additionally, I have completed two minors to improve my communication and presentation skills. I also had to do an internship where I learned a lot, which has made me the software engineer I am today, thanks to my mentors.
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .cus-modal {
+            background-color: #FFFFFF;
+            position: absolute;
+            width: 100%;
+            display: none;
+            justify-content: center;
+            z-index: 1;
+            border: solid 1px rgb(209, 209, 209);
+            min-height: 700px;
+        }
+        .cus-btn {
+            background-color: #695AA6;
+            color: white;
+            border:none!important;
+            padding: 15px 30px;
+        }
+        .cus-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption" style="max-width: 90%;">
+                                <h4>Software Engineer</h5>
+                                    <p class="font-weight-normal">Creation of dynamic module twins for IoT hardware components.</p>
+                                    <p class="font-weight-normal">Category: IoT</p>
+                                    <p class="font-weight-normal">Skills: Python, Algorithms, Javascript & Vue</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption" style="max-width: 90%;">
+                                <h4>Web Development</h5>
+                                    <p class="font-weight-normal">Creation of a forum page for all the businesses of each branch in the Netherlands.</p>
+                                    <p class="font-weight-normal">Category: Website</p>
+                                    <p class="font-weight-normal">Skills: ASP .NET Core, ORM, MVC, Javascript & Razor pages</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption" style="max-width: 90%;">
+                                <h4>Web Designing</h5>
+                                    <p class="font-weight-normal">Designing websites for medium and small businesses.</p>
+                                    <p class="font-weight-normal">Category: Website</p>
+                                    <p class="font-weight-normal">Skills: HTML, CSS, Figma, Photoshop, Wordpress, PHP, SQL</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">
+                Derman Aygun
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.linkedin.com/in/derman-aygun-650101177/" class="link"><i class="ti-rss"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
